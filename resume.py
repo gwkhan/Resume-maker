@@ -35,7 +35,7 @@ if Skills.strip():
     pdf.cell(200, 10, txt="Skills", ln=1)
     pdf.set_font("Arial", size=16)
     for a in skill:
-        pdf.cell(200, 10, txt=f"• {a.strip().capitalize()}", ln=1)
+        pdf.cell(200, 10, txt=f"- {a.strip().capitalize()}", ln=1)
     pdf.ln(5)
 
 experience = input("Enter your experience: ")
